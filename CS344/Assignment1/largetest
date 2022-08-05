@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "Generating new random input"
+head -c 10000 /dev/random > golden.bin
+
+echo "Encoding with base64"
+./base64enc < golden.bin > got.txt
+base64 < golden.bin > golden.txt
+
+echo "Comparing base64 output to known good output"
+if ! diff got.txt golden.txt; then
+    echo "FAILED!"
+    exit 1
+fi
+
+echo "Performing round trip of encoded file"
+base64 -d < got.txt > got.bin
+if ! diff got.bin golden.bin; then
+    echo "FAILED!"
+    exit 1
+fi
+
+echo "PASSED!"

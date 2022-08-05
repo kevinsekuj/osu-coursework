@@ -1,0 +1,67 @@
+
+<h1>Add workout</h1>
+<p> <em>Name is a required field.</em></p>
+
+<form action="/">
+	<label for="name"><strong>Workout name</strong></label>
+	<input type="text" name="name" id="workout" required />
+
+	<label for="reps"><strong>Reps</strong></label>
+	<input type="number" name="reps" id="reps"   >
+
+	<label for="weight"><strong>Weight</strong></label>
+	<input type="number" name="weight" id="weight"   >
+
+	<p style="display: inline-block;padding: 0 5px;"><strong>Unit</strong> |</p>
+	
+	<label for="unit">lb</label>
+	<input type="radio" name="unit" id="pound" checked >
+
+	<label for="unit">kg</label>
+	<input type="radio" name="unit" >
+
+	<br>
+	<br>
+	<label for="name"> <strong>Date</strong></label>
+	<input type="date" name="date" id="date"   >
+<br>
+<br>
+	<input type="submit" name="submit" id="postSubmit"/>
+
+</form>
+<hr>
+<a href="/reset-table"><button>Reset workouts</button></a>
+
+<h2>
+	Workouts
+</h2>
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Reps</th>
+			<th>Weight</th>
+			<th>Units</th>
+			<th>Date</th>
+			<th>Edit</th>
+			<th>Delete</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each data}}
+			<tr id="{{this.id}}">
+				<td>{{this.name}}</td>
+				<td>{{this.reps}}</td>
+				<td>{{this.weight}}</td>
+				{{#if this.unit}}
+				<td>kg</td>
+				{{else}}
+				<td>lb</td>
+				{{/if}}
+				<td id="dateCell">{{this.date}}</td>
+				<td><a href="/update?id={{this.id}}"><button>Edit</button></a></td>
+				<td><button onclick="deleteRequest({{this.id}})">Delete</button></td>
+			</tr>
+		{{/each}}
+	</tbody>
+</table>

@@ -1,0 +1,39 @@
+<h1>
+	POST Request Received
+</h1>
+
+<h2>Query data</h2>
+<table style="border: 2px solid black;">
+	<thead>
+		<tr>
+			<th style="border: 1px solid black;">Parameter Names</th>
+			<th style="border: 1px solid black;">Values</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each context.dataListQuery}}
+			<tr>
+				<td>{{this.name}}</td>
+				<td>{{this.value}}</td>
+			</tr>
+		{{/each}}
+	</tbody>
+</table>
+
+<h2>Body data</h2>
+<table style="border: 2px solid black;">
+	<thead>
+		<tr>
+			<th style="border: 1px solid black;">Parameter Names</th>
+			<th style="border: 1px solid black;">Values</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each context.dataList}}
+			<tr>
+				<td>{{this.name}}</td>
+				<td>{{this.value}}</td>
+			</tr>
+		{{/each}}
+	</tbody>
+</table>

@@ -1,0 +1,6 @@
+
+Command 'csh' not found, but can be installed with:
+
+sudo apt install csh   # version 20110502-5, or
+sudo apt install tcsh  # version 6.21.00-1
+

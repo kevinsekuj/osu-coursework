@@ -1,0 +1,44 @@
+table {
+	border: 2px solid;
+}
+
+thead > tr > th:nth-child(1) {
+	border: 0;
+}
+
+thead > tr > th {
+	border: 1px solid;
+}
+
+tbody > tr > th {
+	font-weight: normal;
+	font-style: italic;
+	border: 1px solid;
+}
+
+tbody > tr:nth-of-type(n) {
+	background-color: lightpink;
+}
+
+tbody tr:nth-of-type(2n) {
+	background-color: lightgrey;
+}
+
+tfoot > tr > td {
+	border: 1px dotted;
+}
+
+.outer-content {
+	display: relative;
+	margin: 20px 0px 0px 0px;
+	background-color: pink;
+	width: 75%;
+	padding: 5px;
+}
+
+.inner-content {
+	text-align: center;
+	background-color: lightblue;
+	width: 75%;
+	margin: auto;
+}

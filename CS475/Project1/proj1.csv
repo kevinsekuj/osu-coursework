@@ -1,0 +1,72 @@
+ 1 threads :        1 trials ; probability =   0.00% ; megatrials/sec =   1.14
+ 1 threads :       10 trials ; probability =  50.00% ; megatrials/sec =   7.86
+ 1 threads :      100 trials ; probability =  36.00% ; megatrials/sec =   7.54
+ 1 threads :     1000 trials ; probability =  30.00% ; megatrials/sec =   5.88
+ 1 threads :    10000 trials ; probability =  29.25% ; megatrials/sec =  11.04
+ 1 threads :   100000 trials ; probability =  29.03% ; megatrials/sec =  15.27
+ 1 threads :   500000 trials ; probability =  29.01% ; megatrials/sec =  15.25
+ 1 threads :  1000000 trials ; probability =  29.10% ; megatrials/sec =  15.02
+ 2 threads :        1 trials ; probability = 100.00% ; megatrials/sec =   0.38
+ 2 threads :       10 trials ; probability =  50.00% ; megatrials/sec =   3.86
+ 2 threads :      100 trials ; probability =  28.00% ; megatrials/sec =  11.83
+ 2 threads :     1000 trials ; probability =  30.10% ; megatrials/sec =  20.00
+ 2 threads :    10000 trials ; probability =  29.62% ; megatrials/sec =  20.86
+ 2 threads :   100000 trials ; probability =  29.37% ; megatrials/sec =  15.63
+ 2 threads :   500000 trials ; probability =  29.01% ; megatrials/sec =  29.09
+ 2 threads :  1000000 trials ; probability =  29.05% ; megatrials/sec =  24.09
+ 4 threads :        1 trials ; probability = 100.00% ; megatrials/sec =   0.33
+ 4 threads :       10 trials ; probability =  40.00% ; megatrials/sec =   4.27
+ 4 threads :      100 trials ; probability =  30.00% ; megatrials/sec =  13.71
+ 4 threads :     1000 trials ; probability =  28.30% ; megatrials/sec =  25.08
+ 4 threads :    10000 trials ; probability =  29.05% ; megatrials/sec =  27.20
+ 4 threads :   100000 trials ; probability =  28.93% ; megatrials/sec =  27.20
+ 4 threads :   500000 trials ; probability =  29.07% ; megatrials/sec =  22.97
+ 4 threads :  1000000 trials ; probability =  29.14% ; megatrials/sec =  23.14
+ 8 threads :        1 trials ; probability =   0.00% ; megatrials/sec =   0.25
+ 8 threads :       10 trials ; probability =  10.00% ; megatrials/sec =   2.17
+ 8 threads :      100 trials ; probability =  40.00% ; megatrials/sec =  16.40
+ 8 threads :     1000 trials ; probability =  29.90% ; megatrials/sec =  38.51
+ 8 threads :    10000 trials ; probability =  28.71% ; megatrials/sec =  46.30
+ 8 threads :   100000 trials ; probability =  28.99% ; megatrials/sec =  83.33
+ 8 threads :   500000 trials ; probability =  28.99% ; megatrials/sec =  79.68
+ 8 threads :  1000000 trials ; probability =  29.03% ; megatrials/sec =  63.77
+12 threads :        1 trials ; probability =   0.00% ; megatrials/sec =   0.22
+12 threads :       10 trials ; probability =  30.00% ; megatrials/sec =   2.68
+12 threads :      100 trials ; probability =  38.00% ; megatrials/sec =  23.28
+12 threads :     1000 trials ; probability =  27.90% ; megatrials/sec =  59.90
+12 threads :    10000 trials ; probability =  29.14% ; megatrials/sec =  66.96
+12 threads :   100000 trials ; probability =  29.27% ; megatrials/sec =  61.56
+12 threads :   500000 trials ; probability =  29.11% ; megatrials/sec =  52.87
+12 threads :  1000000 trials ; probability =  29.16% ; megatrials/sec =  47.72
+16 threads :        1 trials ; probability =   0.00% ; megatrials/sec =   0.00
+16 threads :       10 trials ; probability =  40.00% ; megatrials/sec =   0.00
+16 threads :      100 trials ; probability =  32.00% ; megatrials/sec =  16.10
+16 threads :     1000 trials ; probability =  28.30% ; megatrials/sec =  95.10
+16 threads :    10000 trials ; probability =  29.64% ; megatrials/sec =   3.33
+16 threads :   100000 trials ; probability =  29.23% ; megatrials/sec =  19.54
+16 threads :   500000 trials ; probability =  29.00% ; megatrials/sec =  34.95
+16 threads :  1000000 trials ; probability =  29.02% ; megatrials/sec =  46.02
+20 threads :        1 trials ; probability =   0.00% ; megatrials/sec =   0.00
+20 threads :       10 trials ; probability =  20.00% ; megatrials/sec =   0.00
+20 threads :      100 trials ; probability =  32.00% ; megatrials/sec =   0.01
+20 threads :     1000 trials ; probability =  29.60% ; megatrials/sec =   0.17
+20 threads :    10000 trials ; probability =  28.70% ; megatrials/sec =   1.66
+20 threads :   100000 trials ; probability =  29.12% ; megatrials/sec =  13.33
+20 threads :   500000 trials ; probability =  29.08% ; megatrials/sec =  40.79
+20 threads :  1000000 trials ; probability =  29.04% ; megatrials/sec =  43.86
+24 threads :        1 trials ; probability =   0.00% ; megatrials/sec =   0.00
+24 threads :       10 trials ; probability =  40.00% ; megatrials/sec =   0.00
+24 threads :      100 trials ; probability =  32.00% ; megatrials/sec =   0.01
+24 threads :     1000 trials ; probability =  27.50% ; megatrials/sec =   0.19
+24 threads :    10000 trials ; probability =  28.87% ; megatrials/sec =   1.28
+24 threads :   100000 trials ; probability =  28.88% ; megatrials/sec =   8.96
+24 threads :   500000 trials ; probability =  29.00% ; megatrials/sec =  32.62
+24 threads :  1000000 trials ; probability =  29.12% ; megatrials/sec =  45.39
+32 threads :        1 trials ; probability = 100.00% ; megatrials/sec =   0.01
+32 threads :       10 trials ; probability =  20.00% ; megatrials/sec =   0.08
+32 threads :      100 trials ; probability =  22.00% ; megatrials/sec =   0.39
+32 threads :     1000 trials ; probability =  29.00% ; megatrials/sec =   3.41
+32 threads :    10000 trials ; probability =  28.88% ; megatrials/sec =  25.48
+32 threads :   100000 trials ; probability =  28.91% ; megatrials/sec =  59.95
+32 threads :   500000 trials ; probability =  28.99% ; megatrials/sec =  81.86
+32 threads :  1000000 trials ; probability =  29.09% ; megatrials/sec =  61.71

@@ -1,0 +1,252 @@
+body {
+	background-color: rgb(31, 31, 31);
+	font-family: "ＭＳ ゴシック", "Noto Sans JP", "ヒラギノ角ゴ ProN",
+		"Hiragino Kaku Gothic ProN", "游ゴシック", "游ゴシック体", YuGothic,
+		"Yu Gothic", "メイリオ", Meiryo, HiraKakuProN-W3, "TakaoExゴシック",
+		TakaoExGothic, "MotoyaLCedar", "Droid Sans Japanese", sans-serif;
+	color: whitesmoke;
+}
+
+:root {
+	color-scheme: dark;
+}
+
+nav {
+	margin: 2.5% auto;
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.1em;
+	letter-spacing: 4px;
+}
+
+ul,
+ol {
+	list-style: none;
+	text-decoration: none;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+	color: inherit;
+	text-decoration: none;
+}
+
+.end a {
+	padding: 5px 5px;
+}
+
+.brand {
+	position: absolute;
+	left: 3%;
+	top: 3%;
+	width: 30%;
+}
+
+.start {
+	margin-left: 80px;
+	z-index: 1;
+}
+
+img {
+	width: 25%;
+	margin: auto;
+}
+
+.typing {
+	z-index: 5;
+	margin: 10% 20%;
+}
+
+.typing p {
+	margin-top: 100px;
+	font-size: 2em;
+	letter-spacing: 20px;
+}
+
+.splash {
+	font-size: 2em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background: black;
+	z-index: 4;
+}
+
+.splash.hidden {
+	position: fixed;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	background: black;
+	z-index: -5;
+	color: white;
+	transition: all 2s;
+}
+
+@keyframes fadeIn {
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeIn {
+	opacity: 0;
+	transition: transform 3s ease-in linear;
+}
+
+article {
+	overflow-y: auto;
+}
+
+#container {
+	opacity: 0.23;
+	position: absolute;
+	padding: 0 0;
+	z-index: -5;
+	top: 0;
+}
+
+#container-sm {
+	position: absolute;
+	overflow-y: auto;
+	top: 24%;
+	left: 45%;
+	width: 700px;
+	height: 500px;
+}
+
+#container-bg {
+	position: absolute;
+	top: 24%;
+	left: 45%;
+	width: 700px;
+	height: 500px;
+	background-color: rgba(37, 37, 37, 0.6);
+}
+
+#photo {
+	position: absolute;
+	bottom: 19%;
+	left: 24%;
+}
+
+#biopic {
+	position: absolute;
+	top: 22.5%;
+	left: 18%;
+	border-radius: 10px;
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 9px;
+	margin-top: 10px;
+}
+
+#formContainer {
+	margin: 10% auto;
+	width: 40%;
+}
+
+ul {
+	margin: 5% 5%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+h2 {
+	text-align: center;
+	margin: 5% auto;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+ul li {
+	text-align: center;
+}
+
+#flag {
+	margin-left: 2px;
+	width: 25px;
+	height: 18px;
+	padding: 2px 2px 2px 2px;
+}
+
+h5 {
+	font-weight: bold;
+	color: rgb(185, 167, 0);
+}
+
+#bioInfo {
+	margin-bottom: 20px;
+}
+
+#bioInfo p {
+	font-size: 1.1em;
+}
+
+.summary {
+	text-indent: 40px;
+}
+
+ol li {
+	color: rgb(0, 132, 150);
+	margin-top: 2px;
+}
+
+a span {
+	margin-left: -10px;
+}
+
+#alert {
+	position: absolute;
+	width: 33%;
+	left: 33.5%;
+	top: 35%;
+	visibility: hidden;
+}
+
+#credit {
+	font-size: 0.8em;
+}
+
+#banner {
+	position: absolute;
+	right: 1%;
+	bottom: 3%;
+	font-size: 0.8em;
+}
+
+.tours li {
+	font-size: 1.3em;
+	padding: 20px 10px;
+}
+
+.tours li strong {
+	color: whitesmoke;
+	font-size: 0.95em;
+}
+
+.download {
+	background-color: #515aff60;
+	width: 30%;
+	text-align: center;
+	color: whitesmoke;
+	font-size: 1.5em;
+	margin: 60px 30px;
+	font-weight: normal;
+}
+
+.dates {
+	padding-top: 5%;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	text-align: left;
+	font-weight: normal;
+}

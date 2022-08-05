@@ -1,0 +1,20 @@
+<h1>
+	GET Request Received
+</h1>
+
+<table style="border: 2px solid black;">
+	<thead>
+		<tr>
+			<th style="border: 1px solid black;">Parameter Names</th>
+			<th style="border: 1px solid black;">Values</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each data.dataList}}
+			<tr>
+				<td>{{this.name}}</td>
+				<td>{{this.value}}</td>
+			</tr>
+		{{/each}}
+	</tbody>
+</table>

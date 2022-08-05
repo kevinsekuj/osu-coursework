@@ -1,0 +1,51 @@
+<h1>
+    Edit workout
+</h1>
+
+<br>
+
+<form action="/submitUpdate">
+	<label for="name"> <strong>Workout</strong> </label>
+	<input type="text" name="name" id="workout" value="{{data.name}}" >
+
+	<label for="reps"> <strong>Reps</strong> </label>
+	<input type="number" name="reps"  id="reps" value={{data.reps}} >
+
+	<label for="weight"> <strong>Weight</strong> </label>
+	<input type="number" name="weight"  id="weight" value={{data.weight}} >
+
+<br>
+
+	<p> <strong> Unit</strong></p>
+	{{#if data.unit}}
+	<label for="unit">lb</label>
+	<input type="radio" name="unit" value='lb' >
+
+	<label for="unit">kg</label>
+	<input type="radio" name="unit" value='kg' checked >
+
+	{{else}}
+	<label for="unit">lb</label>
+	<input type="radio" name="unit" value='lb' checked>
+
+	<label for="unit">kg</label>
+	<input type="radio" name="unit" value='kg' >
+	{{/if}}
+
+	<br>
+	<br>
+
+	<label for="name">Date</label>
+	<input type="date" name="date" id="date" value={{data.date}} >
+
+    <input type="id" name="id" id="id" value={{data.id}} style="visibility: hidden;">
+
+    <br>
+    <br>
+	<input type="submit" name="submit"/>
+</form>
+
+<h2>Return to workouts</h2>
+
+<a href="/"><button>Return</button></a>
+
